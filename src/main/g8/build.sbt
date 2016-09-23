@@ -8,6 +8,8 @@ lazy val root = (project in file("."))
 
 scalaVersion := "2.11.7"
 
+kotlinVersion := "$KotlinVersion$"
+
 libraryDependencies ++= Seq(
   javaJdbc,
   cache,
